@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/node": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
     "babel-cli": "^6.9.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-regenerator": "^6.9.0",
@@ -38,6 +42,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -45,6 +50,7 @@
   },
   "homepage": "https://github.com/fardo9/frontend-project-lvl1#readme",
   "dependencies": {
-    "make": "^0.8.1"
+    "make": "^0.8.1",
+    "readline-sync": "^1.4.10"
   }
 }
